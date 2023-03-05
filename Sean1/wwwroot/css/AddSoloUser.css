@@ -1,0 +1,60 @@
+﻿body {
+    margin: 0;
+
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+
+    background-color: #fff;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.cont{
+    width: 100%;
+    max-width: 400px;
+    
+    margin: 0 auto;
+}
+
+.active {
+    background-color: orange;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    
+}
+
+p.text
+{
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    font-family: "Times New Roman";
+    
+}
+
+h.text{
+    font-size: 15px;
+    font-weight: bold;
+    font-family: "Times New Roman";
+}
+
+.formatik
+{
+    float: right;
+    margin-top: -10%;
+    margin-right: 30%;
+}

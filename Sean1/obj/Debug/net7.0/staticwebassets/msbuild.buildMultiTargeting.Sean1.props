@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Sean1.props" />
+</Project>
