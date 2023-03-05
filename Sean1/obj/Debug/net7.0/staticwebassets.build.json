@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "aeWzVkkB2q3NZdnBqPrAh7+Kl1cBplzTro7Xhl5PFnc=",
+  "Hash": "d94sTnjUoLm5X2BA9tzlf22144m3uIhTDos3bYOwIg8=",
   "Source": "Sean1",
   "BasePath": "_content/Sean1",
   "Mode": "Default",
@@ -66,6 +66,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\AddSoloUser.css"
+    },
+    {
+      "Identity": "C:\\Users\\Алексей\\RiderProjects\\Sean1\\Sean1\\wwwroot\\css\\Autorization.css",
+      "SourceId": "Sean1",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Алексей\\RiderProjects\\Sean1\\Sean1\\wwwroot\\",
+      "BasePath": "_content/Sean1",
+      "RelativePath": "css/Autorization.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\Autorization.css"
+    },
+    {
+      "Identity": "C:\\Users\\Алексей\\RiderProjects\\Sean1\\Sean1\\wwwroot\\css\\RegAuto.css",
+      "SourceId": "Sean1",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Алексей\\RiderProjects\\Sean1\\Sean1\\wwwroot\\",
+      "BasePath": "_content/Sean1",
+      "RelativePath": "css/RegAuto.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\RegAuto.css"
     },
     {
       "Identity": "C:\\Users\\Алексей\\RiderProjects\\Sean1\\Sean1\\wwwroot\\css\\site.css",

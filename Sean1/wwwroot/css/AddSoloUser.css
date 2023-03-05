@@ -17,17 +17,47 @@ h1, h2, h3, h4, h5, h6, p {
     margin: 0;
 }
 
-.container {
+.containerInfoUser {
     width: 100%;
     max-width: 1300px;
     margin: 0 auto;
 }
 
-.cont{
+.ContInfoPropusk{
     width: 100%;
     max-width: 400px;
+    margin-left: -0px;
+   margin-bottom: 15px;
+}
+
+.ContainerInfoStorona
+{
+    float: right;
+    max-width: 1300px;
+    margin-top: -12%;
+   
     
-    margin: 0 auto;
+    
+    
+}
+
+.form-wrap
+{
+    background-color: #bbbbbb
+}
+.Storona
+{
+    background-color: orange;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    width: 700px;
+}
+
+.InfoDocument
+{
+  
+    max-width: 600px;
+    margin-top: 2%;
 }
 
 .active {
@@ -55,6 +85,14 @@ h.text{
 .formatik
 {
     float: right;
-    margin-top: -10%;
+    margin-top: -10.5%;
     margin-right: 30%;
+}
+
+.ClickToSaveClear
+{
+    border: 3px solid orange;
+    float: right;
+    max-width: 1300px;
+    margin-top: -2%;
 }

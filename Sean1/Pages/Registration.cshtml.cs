@@ -2,7 +2,7 @@
 
 namespace Sean1.Pages;
 
-public class Autorization : PageModel
+public class RegistrationAndAutorization : PageModel
 {
     public void OnGet()
     {

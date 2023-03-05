@@ -9,6 +9,14 @@
       "PackagePath": "staticwebassets\\css\\AddSoloUser.css"
     },
     {
+      "Id": "C:\\Users\\Алексей\\RiderProjects\\Sean1\\Sean1\\wwwroot\\css\\Autorization.css",
+      "PackagePath": "staticwebassets\\css\\Autorization.css"
+    },
+    {
+      "Id": "C:\\Users\\Алексей\\RiderProjects\\Sean1\\Sean1\\wwwroot\\css\\RegAuto.css",
+      "PackagePath": "staticwebassets\\css\\RegAuto.css"
+    },
+    {
       "Id": "C:\\Users\\Алексей\\RiderProjects\\Sean1\\Sean1\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

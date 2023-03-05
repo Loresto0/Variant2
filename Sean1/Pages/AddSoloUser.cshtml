@@ -11,7 +11,7 @@
     
     
     
-    <div class="cont">
+    <div class="ContInfoPropusk">
         
         <div class="active">
             <p class="text">Информация для пропуска</p>
@@ -28,7 +28,16 @@
                 <label>С*</label> 
                 <input name="DataFirst" type="date"/> 
                 <label>по</label> 
-                 <input name="DataLast" type="date"/> 
+                <input name="DataLast" type="date"/> 
+                
+                <div >
+                    <h class="text">Цель посещения</h>
+                </div>
+                
+                <select name="BoxGoal">
+                    <option >Работа</option>
+                    <option >Посещение</option>
+                </select>
                 
             </form>
             
@@ -37,79 +46,161 @@
     </div>
     
     
-  <div class="container">
+    <div class="ContainerInfoStorona">
+        
+        <div class="Storona">
+            <p class="text">Принимающая сторона</p>
+        </div>
+        
+        <div class="form-wrap">
+            <form>
+              
+                
+                <div >
+                    <h class="text">Подразделение</h>
+                </div>
+                
+                <div>
+                    
+                    <select name="BoxGoal">
+                        <option >Сбыт</option>
+                        <option >Производство</option>
+                         <option >Переработка</option>
+                    </select>
+                    
+                </div>
+                
+                <div >
+                    <h class="text">ФИО</h>
+                </div>
+                
+                <input name="FIOemployee" type="text"/> 
+                
+                
+            </form>
+            
+        </div>
+        
+    </div>
+    
+    
+  <div class="containerInfoUser">
     
     <div class="active">
       <p class="text">Информация о поситителе</p>
     </div>
     
-    <div class="form-wrap">
+      <div class="form-wrap">
       
-      <form>
+          <form>
       
-      <div>
-        <label>Фамилия</label>
-        <input name="Surname"/>
-      </div>
+              <div>
+                  <label>Фамилия</label>
+                  <input name="Surname"/>
+              </div>
         
-      <div>
-        <label>Имя</label>
-        <input name="Name"/>
-      </div>
+              <div>
+                  <label>Имя</label>
+                  <input name="Name"/>
+              </div>
  
-      <div>
-      <label>Отчество</label>
-      <input name="Patronomyc"/>
-    </div>
+              <div>
+                  <label>Отчество</label>
+                  <input name="Patronomyc"/>
+              </div>
     
-      <div>
-      <label>Номер телефона</label>
-    <input name="Nubmer"/>
-     </div>
+              <div>
+                  <label>Номер телефона</label>
+                  <input name="Nubmer"/>
+              </div>
   
-      <div>
-      <label>E-mail</label>
-    <input name="Email"/>
-                     </div>
+              <div>
+                  <label>E-mail</label>
+                  <input name="Email"/>
+              </div>
         
-      </form>
+          </form>
 
 
         
-        <div class="formatik">
-            <form>
+          <div class="formatik">
+              <form>
 
-                <div>
-                    <label>Организация</label>
-                    <input name="Organization"/>
-                </div>
+                  <div>
+                      <label>Организация</label>
+                      <input name="Organization"/>
+                  </div>
          
-                <div>
-                    <label>Примечание</label>
-                    <input name="Post"/>
-                </div>
+                  <div>
+                      <label>Примечание</label>
+                      <input name="Post"/>
+                  </div>
           
-                <div>
-                    <label>Дата рождения</label>
-                    <input name="Birthday"/>
-                </div>
+                  <div>
+                      <label>Дата рождения</label>
+                      <input name="Birthday"/>
+                  </div>
            
-                <div>
-                    <label>Серия паспорта</label>
-                    <input name="SeriaPass"/>
-                </div>
+                  <div>
+                      <label>Серия паспорта</label>
+                      <input name="SeriaPass"/>
+                  </div>
             
-                <div>
-                    <label>Номер паспорта</label>
-                    <input name="NumberPass"/>
-                </div>
+                  <div>
+                      <label>Номер паспорта</label>
+                      <input name="NumberPass"/>
+                  </div>
 
 
-            </form>
-            </div>
+              </form>
+          </div>
 
      
-    </div>
+      </div>
+      
+      <div class="InfoDocument">
+              
+          <div class="active">
+              <p class="text">Прикреплённые документы</p>
+          </div>
+              
+          <div class="form-wrap">
+              <form>
+                          
+                            
+                  <div >
+                      <button name="FileTo">Прикрепить файл</button>
+                  </div>
+                            
+                
+
+              </form>
+                        
+          </div>
+              
+      </div>
+      
+      
+         <div class="ClickToSaveClear">
+                    
+                 
+                    
+                   <div class="form-wrap">
+                              <form>
+                                
+                                  
+                                  <div >
+                                      <button name="Save">Оформить заявку</button>
+                                      <button name="Clear">Очистить форму</button>
+                                  </div>
+                                  
+                                 
+      
+                              </form>
+                              
+                          </div>
+                    
+                </div>
 
   </div>
   }
